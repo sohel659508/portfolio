@@ -1,0 +1,60 @@
+@media (max-width: 780px) {
+    .index_left_content{
+        position: absolute;
+        left: -25px;
+        top: 30px;
+    }
+    .indexhitext{
+        font-size: 18px;
+    }
+    .indexname{
+        font-size: 25px;
+        margin-top: 1px;
+    }
+    .indextypewriter{
+        font-size: 20px;
+        margin-top: 3px;
+    }
+    .indexinterduce{
+        font-size: 14px;
+        margin-top: 1px;
+    }
+    .indexbutton{
+        margin-top: 6px;
+    }
+    .indexsociallink{
+        margin-top: 1px;
+        margin-left: -10px;
+    }
+    .indexrightphoto{
+        position: absolute;
+        height: 300px !important;
+        width: 300px;
+        bottom: 200px;
+
+    }
+}
+
+@media (max-width: 680px) {
+    .indexinterduce{
+        font-size: 14px;
+        margin-top: 1px;
+        width: 100% !important;
+    }
+    .index_left_content{
+        width: 90%;
+    }
+    .indexbutton{
+        margin-top: 6px;
+        font-size: 13px;
+    }
+    .indexrightphoto{
+        position: absolute;
+        height: 200px !important;
+        width: 200px;
+        top: 65%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+
+    }
+}

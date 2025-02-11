@@ -15,11 +15,11 @@ export default function Home() {
       </Head>
       <main className=''>
         {/* White content....................... */}
-        <div className='w-[50%] m-11 overflow-hidden'>
-          <div className='text-2xl'>Hi There,</div>
-          <div className='text-5xl mt-5'>Sohel Rana</div>
+        <div className='w-[50%] m-11 overflow-hidden index_left_content'>
+          <div className='text-2xl indexhitext'>Hi There,</div>
+          <div className='text-5xl mt-5 indexname'>Sohel Rana</div>
           {/* Typewriter animation.................. */}
-          <div className='text-2xl mt-4'>
+          <div className='text-2xl mt-4 indextypewriter'>
             I&apos;m a
             <TypeAnimation className='text-cyan-500'
               sequence={[
@@ -36,14 +36,14 @@ export default function Home() {
               cursor={true}
             />
           </div>
-          <div className='mt-5'>Welcome to my profile! I hope you find the information you&apos;re looking for here. Feel free to explore my portfolio, and don&apos;t hesitate to reach out if you have any questions.</div>
+          <div className='mt-5 indexinterduce'>Welcome to my profile! I hope you find the information you&apos;re looking for here. Feel free to explore my portfolio, and don&apos;t hesitate to reach out if you have any questions.</div>
           <div className=''>
-            <button className='border-2 border-cyan-500 p-2 mt-5 border-dotted'>
+            <button className='border-2 border-cyan-500 p-2 mt-5 border-dotted indexbutton'>
               <DownloadIcon className='h-5 w-5 float-left mr-2' /> Download CV
             </button>
           </div>
           {/* Social media links................. */}
-          <div className='mt-4 flex'>
+          <div className='mt-4 flex indexsociallink'>
             <Link href="https://wa.me/+8801703349302" target='blank' className='h-[45px] rounded-full w-[45px] overflow-hidden m-2 p-1'>
               <Image alt="WhatsApp Icon" onContextMenu={(e) => e.preventDefault()} style={{ userSelect: "none", pointerEvents: "none" }} src="/Image/index/whatsapp.png" width="100" height="100" />
             </Link>
@@ -63,7 +63,7 @@ export default function Home() {
         </div>
 
         {/* My index photo............. */}
-        <div className='absolute bottom-0 right-0'>
+        <div className='absolute bottom-0 right-0 indexrightphoto'>
           <div>
             <Image alt="Sohel Rana Background" onContextMenu={(e) => e.preventDefault()} style={{ userSelect: "none", pointerEvents: "none" }} src="/Image/index/mybg.png" width="380" height="400" />
           </div>
