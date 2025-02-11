@@ -275,7 +275,7 @@ export default function Skill() {
                         <div className="w-[120px] h-[130px] overflow-hidden rounded m-4">
                             <div className="h-[78%] flex justify-center">
                                 <Image onContextMenu={(e) => e.preventDefault()} 
-  style={{ userSelect: "none", pointerEvents: "none" }} src="/Image/skill/os.png" width='100' height='100' />
+  style={{ userSelect: "none", pointerEvents: "none" }} src="/Image/skill/os.png" alt="Logo" width='100' height='100' />
                             </div>
                             <div className="h-[23%] text-[12px] p-1 line-clamp-1">All Operating System</div>
                         </div>
@@ -283,7 +283,7 @@ export default function Skill() {
                         <div className="w-[120px] h-[130px] overflow-hidden rounded m-4">
                             <div className="h-[78%] flex justify-center">
                                 <Image onContextMenu={(e) => e.preventDefault()} 
-  style={{ userSelect: "none", pointerEvents: "none" }} src="/Image/skill/office.png" width='100' height='100' />
+  style={{ userSelect: "none", pointerEvents: "none" }} src="/Image/skill/office.png" alt="logo" width='100' height='100' />
                             </div>
                             <div className="h-[23%] text-[12px] p-1 line-clamp-1 whitespace-nowrap overflow-hidden">All MS Office Application</div>
                         </div>
@@ -292,7 +292,7 @@ export default function Skill() {
                         <div className="w-[120px] h-[130px] overflow-hidden rounded m-4">
                             <div className="h-[78%] flex justify-center">
                                 <Image onContextMenu={(e) => e.preventDefault()} 
-  style={{ userSelect: "none", pointerEvents: "none" }} src="/Image/skill/hardware.png" width='100' height='100' />
+  style={{ userSelect: "none", pointerEvents: "none" }} src="/Image/skill/hardware.png" alt="logo" width='100' height='100' />
                             </div>
                             <div className="h-[23%] text-[12px] p-1 line-clamp-1 whitespace-nowrap overflow-hidden">PC Hardware</div>
                         </div>
@@ -300,7 +300,7 @@ export default function Skill() {
                         <div className="w-[120px] h-[130px] overflow-hidden rounded m-4">
                             <div className="h-[78%] flex justify-center">
                                 <Image onContextMenu={(e) => e.preventDefault()} 
-  style={{ userSelect: "none", pointerEvents: "none" }} src="/Image/skill/ps.png" width='100' height='100' />
+  style={{ userSelect: "none", pointerEvents: "none" }} src="/Image/skill/ps.png" width='100' alt="logo" height='100' />
                             </div>
                             <div className="h-[23%] text-[12px] p-1 line-clamp-1 whitespace-nowrap overflow-hidden">
                                 Adobe Photoshop</div>
@@ -310,7 +310,7 @@ export default function Skill() {
                         <div className="w-[120px] h-[130px] overflow-hidden rounded m-4">
                             <div className="h-[78%] flex justify-center">
                                 <Image onContextMenu={(e) => e.preventDefault()} 
-  style={{ userSelect: "none", pointerEvents: "none" }} src="/Image/skill/vs.png" width='100' height='100' />
+  style={{ userSelect: "none", pointerEvents: "none" }} src="/Image/skill/vs.png" width='100' alt="logo" height='100' />
                             </div>
                             <div className="h-[23%] text-[12px] p-1 line-clamp-1 whitespace-nowrap overflow-hidden text-center">Visual Studieo</div>
                         </div>
@@ -319,7 +319,7 @@ export default function Skill() {
                         <div className="w-[120px] h-[130px] overflow-hidden rounded m-4">
                             <div className="h-[78%] flex justify-center">
                                 <Image onContextMenu={(e) => e.preventDefault()} 
-  style={{ userSelect: "none", pointerEvents: "none" }} src="/Image/skill/vp.png" width='100' height='100' />
+  style={{ userSelect: "none", pointerEvents: "none" }} src="/Image/skill/vp.png" alt="logo" width='100' height='100' />
                             </div>
                             <div className="h-[23%] text-[12px] p-1 line-clamp-1 whitespace-nowrap overflow-hidden text-center">Video Editing</div>
                         </div>
@@ -328,7 +328,7 @@ export default function Skill() {
                         <div className="w-[120px] h-[130px] overflow-hidden rounded m-4">
                             <div className="h-[78%] flex justify-center">
                                 <Image onContextMenu={(e) => e.preventDefault()} 
-  style={{ userSelect: "none", pointerEvents: "none" }} src="/Image/skill/wearing.png" width='100' height='100' />
+  style={{ userSelect: "none", pointerEvents: "none" }} src="/Image/skill/wearing.png" alt="logo" width='100' height='100' />
                             </div>
                             <div className="h-[23%] text-[12px] p-1 line-clamp-1 whitespace-nowrap overflow-hidden text-center">Electric Wiring</div>
                         </div>
