@@ -9,7 +9,7 @@ export default function Skill() {
             <Head>
                 <title>Skill | Sohel</title>
             </Head>
-            <main className="p-5">
+            <main className="p-5 skill_mainsection">
 
                 {/* academic qualification section............. */}
                 <div>
@@ -17,11 +17,11 @@ export default function Skill() {
                     {/* card section............................ */}
                     <div className="flex  flex-wrap">
                         {/* card box........................ */}
-                        <div href="#" class="block h-[620px] m-2 cursor-pointer w-[32%] p-6 bg-white border border-gray-200 rounded-lg shadow hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
+                        <div class="block h-[620px] m-2 cursor-pointer w-[32%] skillprofessionlayer p-6 bg-white border border-gray-200 rounded-lg shadow hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
                             <div className="flex text-[14px]"><ClockIcon className="h-5 w-5 mr-2" /> 2023-Continue</div>
                             <div className="float-right mt-[-30px] w-[120px] h-[50px] rounded overflow-hidden items-center flex">
-                                <Image onContextMenu={(e) => e.preventDefault()} 
-  style={{ userSelect: "none", pointerEvents: "none" }} src='/Image/default/tusuka_logo.png' alt="Logo" width="120" height="50"></Image>
+                                <Image onContextMenu={(e) => e.preventDefault()}
+                                    style={{ userSelect: "none", pointerEvents: "none" }} src='/Image/default/tusuka_logo.png' alt="Logo" width="120" height="50"></Image>
                             </div>
                             <div className="text-cyan-500 font-bold">
                                 Store Executive
@@ -45,11 +45,11 @@ export default function Skill() {
 
 
                         {/* card box........................ */}
-                        <div href="#" class="block h-[620px] m-2 cursor-pointer w-[32%] p-6 bg-white border border-gray-200 rounded-lg shadow hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
+                        <div class="block h-[620px] m-2 cursor-pointer w-[32%] skillprofessionlayer p-6 bg-white border border-gray-200 rounded-lg shadow hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
                             <div className="flex text-[14px]"><ClockIcon className="h-5 w-5 mr-2" />  2022-2023</div>
                             <div className="float-right mt-[-30px] w-[120px] h-[50px] rounded overflow-hidden items-center flex">
-                                <Image onContextMenu={(e) => e.preventDefault()} 
-  style={{ userSelect: "none", pointerEvents: "none" }} src='/Image/default/tusuka_logo.png' alt="Logo" width="120" height="50"></Image>
+                                <Image onContextMenu={(e) => e.preventDefault()}
+                                    style={{ userSelect: "none", pointerEvents: "none" }} src='/Image/default/tusuka_logo.png' alt="Logo" width="120" height="50"></Image>
                             </div>
                             <div className="text-cyan-500 font-bold">
                                 Data Entry Executive
@@ -74,11 +74,11 @@ export default function Skill() {
                         </div>
 
                         {/* card box........................ */}
-                        <div href="#" class="block h-[620px] m-2 cursor-pointer w-[32%] p-6 bg-white border border-gray-200 rounded-lg shadow hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
+                        <div class="block h-[620px] m-2 cursor-pointer w-[32%] skillprofessionlayer p-6 bg-white border border-gray-200 rounded-lg shadow hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
                             <div className="flex text-[14px]"><ClockIcon className="h-5 w-5 mr-2" />  2019-2022</div>
                             <div className="float-right mt-[-30px] w-[120px] h-[50px] rounded overflow-hidden items-center flex">
-                                <Image onContextMenu={(e) => e.preventDefault()} 
-  style={{ userSelect: "none", pointerEvents: "none" }} src='/Image/default/tvs_logo.png' alt="Logo" width="120" height="50"></Image>
+                                <Image onContextMenu={(e) => e.preventDefault()}
+                                    style={{ userSelect: "none", pointerEvents: "none" }} src='/Image/default/tvs_logo.png' alt="Logo" width="120" height="50"></Image>
                             </div>
                             <div className="text-cyan-500 font-bold">
                                 Computer Operator
@@ -115,7 +115,7 @@ export default function Skill() {
                 {/* hard skill section................................ */}
                 <div className="text-[17px] font-bold flex mt-11"><AdjustmentsIcon className="h-6 w-6 mr-3" />  Hard Skill</div>
                 {/* card box........................ */}
-                <div href="#" class="block h-auto m-2 cursor-pointer w-full p-6 bg-white border border-gray-200 rounded-lg shadow hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
+                <div class="block h-auto skillcardsection m-2 cursor-pointer w-full p-6 bg-white border border-gray-200 rounded-lg shadow hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
 
                     <div className="float-right mt-[-10px] w-[120px] h-[50px] rounded overflow-hidden items-center flex justify-end">
                         <GlobeAltIcon className="h-12" />
@@ -125,44 +125,44 @@ export default function Skill() {
                     </div><br />
                     <div className="flex flex-wrap">
                         {/* skill card................. */}
-                        <div className="m-2 w-[200px] h-[70px] p-2 overflow-hidden rounded">
+                        <div className="m-2 w-[200px] h-[70px] p-2 overflow-hidden rounded skillsmallcard">
                             HTML- (100%)<br />
                             <progress value="100" max="100"></progress>
                         </div>
 
-                        <div className="m-2 w-[200px] h-[70px] p-2 overflow-hidden rounded">
+                        <div className="m-2 w-[200px] h-[70px] p-2 overflow-hidden rounded skillsmallcard">
                             CSS- (95%)<br />
                             <progress value="95" max="100"></progress>
                         </div>
-                        <div className="m-2 w-[200px] h-[70px] p-2 overflow-hidden rounded">
+                        <div className="m-2 w-[200px] h-[70px] p-2 overflow-hidden rounded skillsmallcard">
                             Bootstrap- (90%)<br />
                             <progress value="90" max="100"></progress>
                         </div>
-                        <div className="m-2 w-[200px] h-[70px] p-2 overflow-hidden rounded">
+                        <div className="m-2 w-[200px] h-[70px] p-2 overflow-hidden rounded skillsmallcard">
                             Tailwind CSS- (90%)<br />
                             <progress value="90" max="100"></progress>
                         </div>
-                        <div className="m-2 w-[200px] h-[70px] p-2 overflow-hidden rounded">
+                        <div className="m-2 w-[200px] h-[70px] p-2 overflow-hidden rounded skillsmallcard">
                             JS- (70%)<br />
                             <progress value="70" max="100"></progress>
                         </div>
-                        <div className="m-2 w-[200px] h-[70px] p-2 overflow-hidden rounded">
+                        <div className="m-2 w-[200px] h-[70px] p-2 overflow-hidden rounded skillsmallcard">
                             React (NextJs)- (90%)<br />
                             <progress value="95" max="100"></progress>
                         </div>
-                        <div className="m-2 w-[200px] h-[70px] p-2 overflow-hidden rounded">
+                        <div className="m-2 w-[200px] h-[70px] p-2 overflow-hidden rounded skillsmallcard">
                             Flutter- (80%)<br />
                             <progress value="80" max="100"></progress>
                         </div>
-                        <div className="m-2 w-[200px] h-[70px] p-2 overflow-hidden rounded">
+                        <div className="m-2 w-[200px] h-[70px] p-2 overflow-hidden rounded skillsmallcard">
                             Python- (60%)<br />
                             <progress value="60" max="100"></progress>
                         </div>
-                        <div className="m-2 w-[200px] h-[70px] p-2 overflow-hidden rounded">
+                        <div className="m-2 w-[200px] h-[70px] p-2 overflow-hidden rounded skillsmallcard">
                             PHP- (85%)<br />
                             <progress value="85" max="100"></progress>
                         </div>
-                        <div className="m-2 w-[200px] h-[70px] p-2 overflow-hidden rounded">
+                        <div className="m-2 w-[200px] h-[70px] p-2 overflow-hidden rounded skillsmallcard">
                             MySqli- (90%)<br />
                             <progress value="90" max="100"></progress>
                         </div>
@@ -170,7 +170,7 @@ export default function Skill() {
                 </div>
 
                 {/* for mobile app developer skill.........../ */}
-                <div href="#" class="block h-auto m-2 cursor-pointer w-full p-6 bg-white border border-gray-200 rounded-lg shadow hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
+                <div class="block h-auto skillcardsection m-2 cursor-pointer w-full p-6 bg-white border border-gray-200 rounded-lg shadow hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
 
                     <div className="float-right mt-[-10px] w-[120px] h-[50px] rounded overflow-hidden items-center flex justify-end">
                         <svg class="w-10 h-10 text-gray-800 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" viewBox="0 0 24 24">
@@ -185,19 +185,19 @@ export default function Skill() {
                     </div><br />
                     <div className="flex flex-wrap">
                         {/* skill card................. */}
-                        <div className="m-2 w-[200px] h-[70px] p-2 overflow-hidden rounded">
+                        <div className="m-2 w-[200px] h-[70px] p-2 overflow-hidden rounded skillsmallcard">
                             Reactnative- (60%)<br />
                             <progress value="60" max="100"></progress>
                         </div>
-                        <div className="m-2 w-[200px] h-[70px] p-2 overflow-hidden rounded">
+                        <div className="m-2 w-[200px] h-[70px] p-2 overflow-hidden rounded skillsmallcard">
                             Flutter- (80%)<br />
                             <progress value="80" max="100"></progress>
                         </div>
-                        <div className="m-2 w-[200px] h-[70px] p-2 overflow-hidden rounded">
+                        <div className="m-2 w-[200px] h-[70px] p-2 overflow-hidden rounded skillsmallcard">
                             PHP Api- (70%)<br />
                             <progress value="70" max="100"></progress>
                         </div>
-                        <div className="m-2 w-[200px] h-[70px] p-2 overflow-hidden rounded">
+                        <div className="m-2 w-[200px] h-[70px] p-2 overflow-hidden rounded skillsmallcard">
                             MySqli- (90%)<br />
                             <progress value="90" max="100"></progress>
                         </div>
@@ -206,7 +206,7 @@ export default function Skill() {
 
 
                 {/* for computer app developer skill.........../ */}
-                <div href="#" class="block h-auto m-2 cursor-pointer w-full p-6 bg-white border border-gray-200 rounded-lg shadow hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
+                <div class="block h-auto skillcardsection m-2 cursor-pointer w-full p-6 bg-white border border-gray-200 rounded-lg shadow hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
 
                     <div className="float-right mt-[-10px] w-[120px] h-[50px] rounded overflow-hidden items-center flex justify-end">
                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 28.87 28.87" id="window" width="70" height="70">
@@ -245,19 +245,19 @@ export default function Skill() {
                     </div><br />
                     <div className="flex flex-wrap">
                         {/* skill card................. */}
-                        <div className="m-2 w-[200px] h-[70px] p-2 overflow-hidden rounded">
+                        <div className="m-2 w-[200px] h-[70px] p-2 overflow-hidden rounded skillsmallcard">
                             Python- (60%)<br />
                             <progress value="60" max="100"></progress>
                         </div>
-                        <div className="m-2 w-[200px] h-[70px] p-2 overflow-hidden rounded">
+                        <div className="m-2 w-[200px] h-[70px] p-2 overflow-hidden rounded skillsmallcard">
                             TKinter- (80%)<br />
                             <progress value="80" max="100"></progress>
                         </div>
-                        <div className="m-2 w-[200px] h-[70px] p-2 overflow-hidden rounded">
+                        <div className="m-2 w-[200px] h-[70px] p-2 overflow-hidden rounded skillsmallcard">
                             PHP Api- (70%)<br />
                             <progress value="70" max="100"></progress>
                         </div>
-                        <div className="m-2 w-[200px] h-[70px] p-2 overflow-hidden rounded">
+                        <div className="m-2 w-[200px] h-[70px] p-2 overflow-hidden rounded skillsmallcard">
                             MySqli- (90%)<br />
                             <progress value="90" max="100"></progress>
                         </div>
@@ -269,66 +269,66 @@ export default function Skill() {
                 {/* for Technical skill......................... */}
                 <div className="text-[17px] font-bold flex mt-11"><LightBulbIcon className="h-6 w-6 mr-3" />  Technical Skill</div>
                 {/* card box........................ */}
-                <div href="#" class="block h-auto m-2 cursor-pointer w-full p-6 bg-white border border-gray-200 rounded-lg shadow hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
+                <div class="block h-auto skillcardsection m-2 cursor-pointer w-full p-6 bg-white border border-gray-200 rounded-lg shadow hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
                     <div className="flex flex-wrap">
                         {/* skill card.......... */}
-                        <div className="w-[120px] h-[130px] overflow-hidden rounded m-4">
-                            <div className="h-[78%] flex justify-center">
-                                <Image onContextMenu={(e) => e.preventDefault()} 
-  style={{ userSelect: "none", pointerEvents: "none" }} src="/Image/skill/os.png" alt="Logo" width='100' height='100' />
+                        <div className="w-[120px] h-[130px] overflow-hidden rounded hardskillsection m-4">
+                            <div className="h-[78%] flex justify-center skillhardimage">
+                                <Image onContextMenu={(e) => e.preventDefault()}
+                                    style={{ userSelect: "none", pointerEvents: "none" }} src="/Image/skill/os.png" alt="Logo" width='100' height='100' />
                             </div>
                             <div className="h-[23%] text-[12px] p-1 line-clamp-1">All Operating System</div>
                         </div>
                         {/* skill card.......... */}
-                        <div className="w-[120px] h-[130px] overflow-hidden rounded m-4">
-                            <div className="h-[78%] flex justify-center">
-                                <Image onContextMenu={(e) => e.preventDefault()} 
-  style={{ userSelect: "none", pointerEvents: "none" }} src="/Image/skill/office.png" alt="logo" width='100' height='100' />
+                        <div className="w-[120px] h-[130px] overflow-hidden rounded hardskillsection m-4">
+                            <div className="h-[78%] flex justify-center skillhardimage">
+                                <Image onContextMenu={(e) => e.preventDefault()}
+                                    style={{ userSelect: "none", pointerEvents: "none" }} src="/Image/skill/office.png" alt="logo" width='100' height='100' />
                             </div>
                             <div className="h-[23%] text-[12px] p-1 line-clamp-1 whitespace-nowrap overflow-hidden">All MS Office Application</div>
                         </div>
 
                         {/* skill card.......... */}
-                        <div className="w-[120px] h-[130px] overflow-hidden rounded m-4">
-                            <div className="h-[78%] flex justify-center">
-                                <Image onContextMenu={(e) => e.preventDefault()} 
-  style={{ userSelect: "none", pointerEvents: "none" }} src="/Image/skill/hardware.png" alt="logo" width='100' height='100' />
+                        <div className="w-[120px] h-[130px] overflow-hidden rounded hardskillsection m-4">
+                            <div className="h-[78%] flex justify-center skillhardimage">
+                                <Image onContextMenu={(e) => e.preventDefault()}
+                                    style={{ userSelect: "none", pointerEvents: "none" }} src="/Image/skill/hardware.png" alt="logo" width='100' height='100' />
                             </div>
                             <div className="h-[23%] text-[12px] p-1 line-clamp-1 whitespace-nowrap overflow-hidden">PC Hardware</div>
                         </div>
                         {/* skill card.......... */}
-                        <div className="w-[120px] h-[130px] overflow-hidden rounded m-4">
-                            <div className="h-[78%] flex justify-center">
-                                <Image onContextMenu={(e) => e.preventDefault()} 
-  style={{ userSelect: "none", pointerEvents: "none" }} src="/Image/skill/ps.png" width='100' alt="logo" height='100' />
+                        <div className="w-[120px] h-[130px] overflow-hidden rounded hardskillsection m-4">
+                            <div className="h-[78%] flex justify-center skillhardimage">
+                                <Image onContextMenu={(e) => e.preventDefault()}
+                                    style={{ userSelect: "none", pointerEvents: "none" }} src="/Image/skill/ps.png" width='100' alt="logo" height='100' />
                             </div>
                             <div className="h-[23%] text-[12px] p-1 line-clamp-1 whitespace-nowrap overflow-hidden">
                                 Adobe Photoshop</div>
                         </div>
 
                         {/* skill card.......... */}
-                        <div className="w-[120px] h-[130px] overflow-hidden rounded m-4">
-                            <div className="h-[78%] flex justify-center">
-                                <Image onContextMenu={(e) => e.preventDefault()} 
-  style={{ userSelect: "none", pointerEvents: "none" }} src="/Image/skill/vs.png" width='100' alt="logo" height='100' />
+                        <div className="w-[120px] h-[130px] overflow-hidden rounded hardskillsection m-4">
+                            <div className="h-[78%] flex justify-center skillhardimage">
+                                <Image onContextMenu={(e) => e.preventDefault()}
+                                    style={{ userSelect: "none", pointerEvents: "none" }} src="/Image/skill/vs.png" width='100' alt="logo" height='100' />
                             </div>
                             <div className="h-[23%] text-[12px] p-1 line-clamp-1 whitespace-nowrap overflow-hidden text-center">Visual Studieo</div>
                         </div>
 
                         {/* skill card.......... */}
-                        <div className="w-[120px] h-[130px] overflow-hidden rounded m-4">
-                            <div className="h-[78%] flex justify-center">
-                                <Image onContextMenu={(e) => e.preventDefault()} 
-  style={{ userSelect: "none", pointerEvents: "none" }} src="/Image/skill/vp.png" alt="logo" width='100' height='100' />
+                        <div className="w-[120px] h-[130px] overflow-hidden rounded hardskillsection m-4">
+                            <div className="h-[78%] flex justify-center skillhardimage">
+                                <Image onContextMenu={(e) => e.preventDefault()}
+                                    style={{ userSelect: "none", pointerEvents: "none" }} src="/Image/skill/vp.png" alt="logo" width='100' height='100' />
                             </div>
                             <div className="h-[23%] text-[12px] p-1 line-clamp-1 whitespace-nowrap overflow-hidden text-center">Video Editing</div>
                         </div>
 
                         {/* skill card.......... */}
-                        <div className="w-[120px] h-[130px] overflow-hidden rounded m-4">
-                            <div className="h-[78%] flex justify-center">
-                                <Image onContextMenu={(e) => e.preventDefault()} 
-  style={{ userSelect: "none", pointerEvents: "none" }} src="/Image/skill/wearing.png" alt="logo" width='100' height='100' />
+                        <div className="w-[120px] h-[130px] overflow-hidden rounded hardskillsection m-4">
+                            <div className="h-[78%] flex justify-center skillhardimage">
+                                <Image onContextMenu={(e) => e.preventDefault()}
+                                    style={{ userSelect: "none", pointerEvents: "none" }} src="/Image/skill/wearing.png" alt="logo" width='100' height='100' />
                             </div>
                             <div className="h-[23%] text-[12px] p-1 line-clamp-1 whitespace-nowrap overflow-hidden text-center">Electric Wiring</div>
                         </div>
@@ -351,7 +351,7 @@ export default function Skill() {
                 {/* for soft skill......................... */}
                 <div className="text-[17px] font-bold flex mt-11"><UsersIcon className="h-6 w-6 mr-3" />  Soft Skill</div>
                 {/* card box........................ */}
-                <div href="#" class="block h-auto m-2 cursor-pointer w-full p-6 bg-white border border-gray-200 rounded-lg shadow hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
+                <div class="block h-auto skillcardsection m-2 cursor-pointer w-full p-6 bg-white border border-gray-200 rounded-lg shadow hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
                     <h2 className="text-[20px]">#Communication</h2>
                     <ul className="list list-disc m-2 ml-10">
                         <li><strong>Effective Communication:</strong> Ability to clearly and concisely convey information, both verbally and in writing, to different audiences.</li>
@@ -413,7 +413,7 @@ export default function Skill() {
                 {/* for Language skill......................... */}
                 <div className="text-[17px] font-bold flex mt-11"><TranslateIcon className="h-6 w-6 mr-3" />  Language Skill</div>
                 {/* card box........................ */}
-                <div href="#" class="block h-auto m-2 cursor-pointer w-full p-6 bg-white border border-gray-200 rounded-lg shadow hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
+                <div class="block h-auto skillcardsection m-2 cursor-pointer w-full p-6 bg-white border border-gray-200 rounded-lg shadow hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
 
                     <h2 className="text-[20px]">#Bangla (Native Language)</h2>
                     <ul className="list list-disc m-2 ml-10">

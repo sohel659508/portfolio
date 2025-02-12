@@ -8,7 +8,7 @@ export default function Education() {
             <Head>
                 <title>Education | Sohel</title>
             </Head>
-            <main className="p-5">
+            <main className="p-5 education_main">
 
                 {/* academic qualification section............. */}
                 <div>
@@ -16,7 +16,7 @@ export default function Education() {
                     {/* card section............................ */}
                     <div className="flex  flex-wrap">
                         {/* card box........................ */}
-                        <div href="#" class="block h-[220px] m-2 cursor-pointer w-[32%] p-6 bg-white border border-gray-200 rounded-lg shadow hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
+                        <div href="#" class="block h-[220px] educationcard educationcard m-2 cursor-pointer w-[31%] p-6 bg-white border border-gray-200 rounded-lg shadow hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
                             <div className="flex text-[14px]"><ClockIcon className="h-5 w-5 mr-2" /> 2019-Continue</div>
                             <div className="text-cyan-500 font-bold">
                                 Becholar Of Business Administration (BBA)
@@ -27,7 +27,7 @@ export default function Education() {
 
 
                         {/* card box........................ */}
-                        <div href="#" class="block h-[220px] m-2 cursor-pointer w-[32%] p-6 bg-white border border-gray-200 rounded-lg shadow hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
+                        <div href="#" class="block h-[220px] educationcard m-2 cursor-pointer w-[31%] p-6 bg-white border border-gray-200 rounded-lg shadow hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
                             <div className="flex text-[14px]"><ClockIcon className="h-5 w-5 mr-2" /> 2017-2019</div>
                             <div className="text-cyan-500 font-bold">
                                 Higher Secondary School Certificate (HSC)
@@ -37,7 +37,7 @@ export default function Education() {
                         </div>
 
                         {/* card box........................ */}
-                        <div href="#" class="block h-[220px] m-2 cursor-pointer w-[32%] p-6 bg-white border border-gray-200 rounded-lg shadow hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
+                        <div href="#" class="block h-[220px] educationcard m-2 cursor-pointer w-[31%] p-6 bg-white border border-gray-200 rounded-lg shadow hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
                             <div className="flex text-[14px]"><ClockIcon className="h-5 w-5 mr-2" /> Exam-2017</div>
                             <div className="text-cyan-500 font-bold">
                                 Secondary School Certificate (SSC)
@@ -47,7 +47,7 @@ export default function Education() {
                         </div>
 
                         {/* card box........................ */}
-                        <div href="#" class="block h-[220px] m-2 cursor-pointer w-[32%] p-6 bg-white border border-gray-200 rounded-lg shadow hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
+                        <div href="#" class="block h-[220px] educationcard m-2 cursor-pointer w-[31%] p-6 bg-white border border-gray-200 rounded-lg shadow hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
                             <div className="flex text-[14px]"><ClockIcon className="h-5 w-5 mr-2" /> Exam-2014</div>
                             <div className="text-cyan-500 font-bold">
                                 Junior School Certificate (JSC)
@@ -57,7 +57,7 @@ export default function Education() {
                         </div>
 
                         {/* card box........................ */}
-                        <div href="#" class="block h-[220px] m-2 cursor-pointer w-[32%] p-6 bg-white border border-gray-200 rounded-lg shadow hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
+                        <div href="#" class="block h-[220px] educationcard m-2 cursor-pointer w-[31%] p-6 bg-white border border-gray-200 rounded-lg shadow hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
                             <div className="flex text-[14px]"><ClockIcon className="h-5 w-5 mr-2" /> Exam-2011</div>
                             <div className="text-cyan-500 font-bold">
                                 Primary Schol Certificate (PSC)
@@ -77,20 +77,20 @@ export default function Education() {
 
                 <div className="flex  flex-wrap">
                     {/* card box........................ */}
-                    <div href="#" class="block h-[220px] m-2 cursor-pointer w-[32%] p-6 bg-white border border-gray-200 rounded-lg shadow hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
+                    <div href="#" class="block h-[220px] educationcard m-2 cursor-pointer w-[31%] p-6 bg-white border border-gray-200 rounded-lg shadow hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
                         <div className="flex text-[14px]"><ClockIcon className="h-5 w-5 mr-2" /> 2017 (Two Month)</div>
                         <div className="text-cyan-500 font-bold">
-                        Basic Computer Training
+                            Basic Computer Training
                         </div>
                         <p class="font-normal text-gray-700 dark:text-gray-400 mb-2">During this training at Smart IT Solution in College Gate, Tongi, Gazipur, I learned about computer hardware, Microsoft Office, and basic computer skills.</p>
                         <Link href="" class="text-gray-700 dark:text-gray-400 underline-offset-2 underline">View Result</Link>
                     </div>
 
                     {/* card box........................ */}
-                    <div href="#" class="block h-[220px] m-2 cursor-pointer w-[32%] p-6 bg-white border border-gray-200 rounded-lg shadow hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
+                    <div href="#" class="block h-[220px] educationcard m-2 cursor-pointer w-[31%] p-6 bg-white border border-gray-200 rounded-lg shadow hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
                         <div className="flex text-[14px]"><ClockIcon className="h-5 w-5 mr-2" />  2024-Continue</div>
                         <div className="text-cyan-500 font-bold">
-                        Gymnasium (GYM)
+                            Gymnasium (GYM)
                         </div>
                         <p class="font-normal text-gray-700 dark:text-gray-400 mb-2">I exercise regularly, understand various gym activities, and know how to use all gym equipment. I train at SAD Gym Center in Tongi, Gazipur.</p>
                         <Link href="" class="text-gray-700 dark:text-gray-400 underline-offset-2 underline">View Result</Link>

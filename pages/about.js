@@ -9,7 +9,7 @@ export default function Skill() {
             <Head>
                 <title>Skill | Sohel</title>
             </Head>
-            <main className="p-5">
+            <main className="p-5 aboutmainsection">
 
                 {/* academic qualification section............. */}
 
@@ -148,32 +148,32 @@ export default function Skill() {
                                 # Food Item<br />
                                 <div className="flex flex-wrap">
                                     {/* food card.......... */}
-                                    <div className="w-[280px] h-[180px] shadow-lg m-3 rounded overflow-hidden">
-                                        <div className="h-[82%] bg-black overflow-hidden">
+                                    <div className="w-[280px] h-[180px] shadow-lg aboutfavoritecard m-3 rounded overflow-hidden">
+                                        <div className="h-[82%] bg-black overflow-hidden aboutphotocard">
                                             <Image alt="photo" src="/Image/about/biriyani.png" width="280" height="100" />
                                         </div>
                                         <div className="text-[12px] p-1"><strong>Food:</strong> Biriany, Chiken Roast, Bhuna dal</div>
                                     </div>
 
                                     {/* food card.......... */}
-                                    <div className="w-[280px] h-[180px] shadow-lg m-3 rounded overflow-hidden">
-                                        <div className="h-[82%] bg-black overflow-hidden">
+                                    <div className="w-[280px] h-[180px] shadow-lg aboutfavoritecard m-3 rounded overflow-hidden">
+                                        <div className="h-[82%] bg-black overflow-hidden aboutphotocard">
                                             <Image alt="photo" src="/Image/about/pasta.png" width="280" height="100" />
                                         </div>
                                         <div className="text-[12px] p-1"><strong>Fast Food:</strong> Pasta, Noodloos</div>
                                     </div>
 
                                     {/* food card.......... */}
-                                    <div className="w-[280px] h-[180px] shadow-lg m-3 rounded overflow-hidden">
-                                        <div className="h-[82%] bg-black overflow-hidden">
+                                    <div className="w-[280px] h-[180px] shadow-lg aboutfavoritecard m-3 rounded overflow-hidden">
+                                        <div className="h-[82%] bg-black overflow-hidden aboutphotocard">
                                             <Image alt="photo" src="/Image/about/jhalmuri.png" width="280" height="100" />
                                         </div>
                                         <div className="text-[12px] p-1"><strong>Street Food:</strong> Jhalmuri, Singara</div>
                                     </div>
 
                                     {/* food card.......... */}
-                                    <div className="w-[280px] h-[180px] shadow-lg m-3 rounded overflow-hidden">
-                                        <div className="h-[82%] bg-black overflow-hidden">
+                                    <div className="w-[280px] h-[180px] shadow-lg aboutfavoritecard m-3 rounded overflow-hidden">
+                                        <div className="h-[82%] bg-black overflow-hidden aboutphotocard">
                                             <Image alt="photo" src="/Image/about/sevenup.png" width="280" height="100" />
                                         </div>
                                         <div className="text-[12px] p-1"><strong>Drink:</strong> Water, Coffee, 7Up</div>
@@ -190,56 +190,56 @@ export default function Skill() {
                                 # Entertainment<br />
                                 <div className="flex flex-wrap">
                                     {/* food card.......... */}
-                                    <div className="w-[280px] h-[180px] shadow-lg m-3 rounded overflow-hidden">
-                                        <div className="h-[82%] bg-black overflow-hidden">
+                                    <div className="w-[280px] h-[180px] shadow-lg aboutfavoritecard m-3 rounded overflow-hidden">
+                                        <div className="h-[82%] bg-black overflow-hidden aboutphotocard">
                                             <Image alt="photo" src="/Image/about/avenger.png" width="280" height="100" />
                                         </div>
                                         <div className="text-[12px] p-1"><strong>Movie:</strong> Avenger Endgame</div>
                                     </div>
 
                                     {/* food card.......... */}
-                                    <div className="w-[280px] h-[180px] shadow-lg m-3 rounded overflow-hidden">
-                                        <div className="h-[82%] bg-black overflow-hidden">
+                                    <div className="w-[280px] h-[180px] shadow-lg aboutfavoritecard m-3 rounded overflow-hidden">
+                                        <div className="h-[82%] bg-black overflow-hidden aboutphotocard">
                                             <Image alt="photo" src="/Image/about/the_king.png" width="280" height="100" />
                                         </div>
                                         <div className="text-[12px] p-1"><strong>Drama:</strong> The King Eternal Monarch</div>
                                     </div>
 
                                     {/* food card.......... */}
-                                    <div className="w-[280px] h-[180px] shadow-lg m-3 rounded overflow-hidden">
-                                        <div className="h-[82%] bg-black overflow-hidden">
+                                    <div className="w-[280px] h-[180px] shadow-lg aboutfavoritecard m-3 rounded overflow-hidden">
+                                        <div className="h-[82%] bg-black overflow-hidden aboutphotocard">
                                             <Image alt="photo" src="/Image/about/carton.png" width="280" height="100" />
                                         </div>
                                         <div className="text-[12px] p-1"><strong>Animation Carton:</strong> Shinchan, Doraemon</div>
                                     </div>
 
                                     {/* food card.......... */}
-                                    <div className="w-[280px] h-[180px] shadow-lg m-3 rounded overflow-hidden">
-                                        <div className="h-[82%] bg-black overflow-hidden">
+                                    <div className="w-[280px] h-[180px] shadow-lg aboutfavoritecard m-3 rounded overflow-hidden">
+                                        <div className="h-[82%] bg-black overflow-hidden aboutphotocard">
                                             <Image alt="photo" src="/Image/about/song.png" width="280" height="100" />
                                         </div>
                                         <div className="text-[12px] p-1"><strong>Song:</strong> Main Agar- Tubelight</div>
                                     </div>
 
                                     {/* food card.......... */}
-                                    <div className="w-[280px] h-[180px] shadow-lg m-3 rounded overflow-hidden">
-                                        <div className="h-[82%] bg-black overflow-hidden">
+                                    <div className="w-[280px] h-[180px] shadow-lg aboutfavoritecard m-3 rounded overflow-hidden">
+                                        <div className="h-[82%] bg-black overflow-hidden aboutphotocard">
                                             <Image alt="photo" src="/Image/about/actor.png" width="280" height="100" />
                                         </div>
                                         <div className="text-[12px] p-1"><strong>Actor:</strong> robert downey jr, Sharuk Khan</div>
                                     </div>
 
                                     {/* food card.......... */}
-                                    <div className="w-[280px] h-[180px] shadow-lg m-3 rounded overflow-hidden">
-                                        <div className="h-[82%] bg-black overflow-hidden">
+                                    <div className="w-[280px] h-[180px] shadow-lg aboutfavoritecard m-3 rounded overflow-hidden">
+                                        <div className="h-[82%] bg-black overflow-hidden aboutphotocard">
                                             <Image alt="photo" src="/Image/about/actress.png" width="280" height="100" />
                                         </div>
                                         <div className="text-[12px] p-1"><strong>Actoress:</strong> kim Ji-won, yami gaoutam</div>
                                     </div>
 
                                     {/* food card.......... */}
-                                    <div className="w-[280px] h-[180px] shadow-lg m-3 rounded overflow-hidden">
-                                        <div className="h-[82%] bg-black overflow-hidden">
+                                    <div className="w-[280px] h-[180px] shadow-lg aboutfavoritecard m-3 rounded overflow-hidden">
+                                        <div className="h-[82%] bg-black overflow-hidden aboutphotocard">
                                             <Image alt="photo" src="/Image/about/singer.png" width="280" height="100" />
                                         </div>
                                         <div className="text-[12px] p-1"><strong>Singer:</strong> Ed Sheeran, Arijit Singh</div>

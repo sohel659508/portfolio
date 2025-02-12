@@ -1,3 +1,4 @@
+/* responsive design for index page........................ */
 @media (max-width: 780px) {
     .index_left_content{
         position: absolute;
@@ -58,3 +59,145 @@
 
     }
 }
+/* index page design is end........................ */
+
+
+
+
+
+/* ############################################################################## */
+
+
+
+/* education page design is start........................ */
+@media (max-width: 1030px) {
+    .educationcard{
+        width: 48%;
+    }
+}
+@media (max-width: 860px) {
+    .educationcard{
+        width: 47%;
+        height: 250px;
+    }
+}
+@media (max-width: 650px) {
+    .education_main{
+        padding: 0px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    .educationcard{
+        width: 100%;
+        height: auto;
+    }
+}
+/* education page design is end........................ */
+
+
+
+/* ############################################################################## */
+
+/* skill page design is start........................ */
+@media (max-width: 1100px) {
+    .skillprofessionlayer{
+        width: 48%;
+        height: 550px;
+    }
+}
+@media (max-width: 960px) {
+    .skillprofessionlayer{
+        width: 48%;
+        height: 600px;
+    }
+}
+@media (max-width: 860px) {
+    .skillprofessionlayer{
+        width: 46%;
+        height: 750px;
+    }
+}
+    @media (max-width: 740px) {
+        .skill_mainsection{
+            padding: 2px;
+            padding-top: 20px;
+        }
+        .skillprofessionlayer{
+            width: 47%;
+            height: 750px;
+        }
+}
+@media (max-width: 670px) {
+    .skillprofessionlayer{
+        width: 100%;
+        height: auto;
+    }
+}
+@media (max-width: 750px) {
+    .skillcardsection{
+        width: 97%;
+        height: auto;
+    }
+}
+
+@media (max-width: 520px) {
+    .skillcardsection{
+        padding: 2px;
+    }
+    .skillcardsection .skillsmallcard{
+        width: 45%;
+    }
+}
+
+@media (max-width: 430px) {
+    .skillcardsection{
+        padding: 2px;
+    }
+    
+    .skillcardsection .skillsmallcard{        
+        width: 40%;
+        height: auto;
+        padding: 2px;
+    }
+}
+
+@media (max-width: 500px) {
+    .hardskillsection{
+        margin: 10px;
+    }
+}
+
+@media (max-width: 450px) {
+    .hardskillsection{
+        margin: 20px;
+        height: 130px;
+        width: 120px;
+    }
+}
+
+/* skill page design is end........................ */
+
+
+
+/* ############################################################################## */
+
+
+
+/* about page design is start........................ */
+@media (max-width: 415px) {
+    .aboutmainsection{
+       padding: 2px;
+    }
+}
+@media (max-width: 375px) {
+    .aboutfavoritecard{
+       height: auto;
+    }
+    .aboutphotocard{
+        height: 65%;
+    }
+}
+
+
+
+/* about page design is end........................ */
