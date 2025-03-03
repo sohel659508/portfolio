@@ -198,6 +198,19 @@
     }
 }
 
-
-
 /* about page design is end........................ */
+
+
+
+
+/* for memory................................... */
+@media (max-width: 650px) {
+.leftlayoutscreememory{
+    display: none;
+}
+.centerlayoutmemory{
+    width: 100% !important;
+    margin-left: 0px;
+}
+
+}

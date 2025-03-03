@@ -2,7 +2,7 @@
 const nextConfig = {
   reactStrictMode: true,
   images: {
-    domains: ['192.168.130.226', 'mrsohelrana.com'], // Add your IP or domain
+    domains: ['ufitmbdunkocffymvkwx.supabase.co'], // Add your IP or domain
   },
 };
 
