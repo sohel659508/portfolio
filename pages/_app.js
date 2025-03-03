@@ -2,6 +2,7 @@ import { useState } from 'react';  // Import useState
 import '../styles/globals.css';
 import '../styles/responsive.css';
 import Link from 'next/link';
+import { SpeedInsights } from "@vercel/speed-insights/next"
 import { HomeIcon, AcademicCapIcon, CogIcon, IdentificationIcon, NewspaperIcon } from '@heroicons/react/outline';
 
 function MyApp({ Component, pageProps }) {
@@ -87,7 +88,7 @@ function MyApp({ Component, pageProps }) {
           </div>
         </div>
       </nav>
-
+      <SpeedInsights />
       <Component {...pageProps} />
     </>
   );
