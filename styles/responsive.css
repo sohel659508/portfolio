@@ -1,9 +1,21 @@
 /* responsive design for index page........................ */
+@keyframes scroll {
+    0% {
+      transform: translateX(0%);
+    }
+    100% {
+      transform: translateX(-50%);
+    }
+  }
+  
 @media (max-width: 780px) {
     .index_left_content{
         position: absolute;
         left: -25px;
         top: 30px;
+    }
+    .marquee-container{
+        display: none;
     }
     .indexhitext{
         font-size: 18px;
@@ -26,13 +38,6 @@
     .indexsociallink{
         margin-top: 1px;
         margin-left: -10px;
-    }
-    .indexrightphoto{
-        position: absolute;
-        height: 300px !important;
-        width: 300px;
-        bottom: 200px;
-
     }
 }
 
@@ -203,7 +208,10 @@
 
 
 
+
+/* ############################################################################## */
 /* for memory................................... */
+
 @media (max-width: 650px) {
 .leftlayoutscreememory{
     display: none;
@@ -212,5 +220,38 @@
     width: 100% !important;
     margin-left: 0px;
 }
-
 }
+
+
+
+
+
+/* ############################################################################## */
+
+/* for preview image................ */
+@media (max-width: 650px) {
+    .preview_imagePhotoview{
+        padding: 2px;
+    }
+    .preview_image_image_holder{
+        position: static;
+        margin-top: 10px;
+    }
+    .preview_image_image_holder .preview_image_image{
+        width: 100% !important;
+        height: auto;
+    }
+}
+
+
+
+
+
+
+
+/* for ads............. */
+#adsterra-top, #adsterra-middle, #adsterra-bottom {
+    margin: 20px auto;
+    text-align: center;
+    
+  }

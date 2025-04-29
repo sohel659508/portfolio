@@ -2,8 +2,8 @@ import { useState } from 'react';  // Import useState
 import '../styles/globals.css';
 import '../styles/responsive.css';
 import Link from 'next/link';
-import { SpeedInsights } from "@vercel/speed-insights/next"
 import { HomeIcon, AcademicCapIcon, CogIcon, IdentificationIcon, NewspaperIcon } from '@heroicons/react/outline';
+import Head from 'next/head';
 
 function MyApp({ Component, pageProps }) {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);  // Define state
@@ -15,11 +15,21 @@ function MyApp({ Component, pageProps }) {
   return (
     <>
       {/* heading section.................... */}
+      <Head>
+      <meta property="og:title" content="Sohel Portfolio Website" />
+        <meta property="og:description" content="Explore my portfolio website for mor about me." />
+        <meta property="og:image" content="https://www.mrsohelrana.com//Image/index/sohel-photo-for-social-media-share.png" />
+        <meta property="og:url" content="https://https://www.mrsohelrana.com" />
+        <meta property="og:type" content="website" />
+      <meta name="google-site-verification" content="sk55eWkisBhGeqpiHir6N1ay5_AfDNQ-HtYgqmHGJk4" />
+      <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8968230404518514"
+     crossorigin="anonymous"></script>
+      </Head>
       <nav className="bg-white border-gray-200 dark:bg-gray-900 sticky top-0 z-40">
         <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
           <Link className="flex items-center space-x-3 rtl:space-x-reverse" href="/" passHref>
-            <span className="self-center text-3xl font-semibold whitespace-nowrap dark:text-white absolute">
-              <font className="text-cyan-500">S</font>ohel <font className="text-cyan-500">R</font>ana
+            <span className="self-center text-3xl font-semibold whitespace-nowrap dark:text-white absolute flex">
+              <div className="text-cyan-500">S</div>ohel <div className="text-cyan-500">R</div>ana <div className='text-[12px] text-gray-500 ml-3'>Varsion- 2.0</div>
             </span>
 
           </Link>
@@ -53,7 +63,7 @@ function MyApp({ Component, pageProps }) {
               } w-full md:block md:w-auto`}
             id="navbar-default"
           >
-            <ul className="font-medium flex flex-col p-4 md:p-0 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
+            <ul className="font-medium flex flex-col p-4 md:p-0 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700 z-50 fixed sm:w-full md:static w-full">
               <li>
                 <Link href="/" className="py-2 px-3 text-grey-900 rounded-sm md:bg-transparent md:text-grey-900 md:p-0 dark:text-white flex md:hover:text-cyan-500" passHref>
                   <HomeIcon className='h-5 w-5 mr-2' /> Home
@@ -88,7 +98,6 @@ function MyApp({ Component, pageProps }) {
           </div>
         </div>
       </nav>
-      <SpeedInsights />
       <Component {...pageProps} />
     </>
   );

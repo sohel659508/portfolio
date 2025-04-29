@@ -3,13 +3,14 @@ import { supabase } from "/lib/supabaseServer";
 import { useRouter } from "next/navigation";
 
 export default function NewPOst() {
-  const [inputValue, setInputValue] = useState("");
+  const [inputValue, setInputValue] = useState(""); // State for post description
+  const [keywordValue, setKeywordValue] = useState(""); // State for keywords
   const [images, setImages] = useState([null, null, null, null]); // Array to store 4 images
   const [loading, setLoading] = useState(false); // Loading state
   const router = useRouter();
 
   const handleInsert = async () => {
-    if (!inputValue.trim()) return;
+    if (!inputValue.trim() || !keywordValue.trim()) return;
 
     setLoading(true); // Set loading to true when the process starts
 
@@ -33,6 +34,8 @@ export default function NewPOst() {
       const { error } = await supabase.from("user_post").insert([
         {
           post_text: inputValue,
+          status: 'public',
+          keyword: keywordValue, // Include keywords in the insert
           photo1: imagePaths[0],
           photo2: imagePaths[1],
           photo3: imagePaths[2],
@@ -67,7 +70,7 @@ export default function NewPOst() {
                   <input
                     key={index}
                     type="file"
-                    accept="image/*"
+                    accept="image/*, video/*"
                     onChange={(e) => {
                       const newImages = [...images];
                       newImages[index] = e.target.files[0];
@@ -76,6 +79,17 @@ export default function NewPOst() {
                   />
                 ))}
               </div>
+              <div className="mt-5">
+                <label className="font-bold">Keywords</label>
+                <br />
+                <textarea
+                  value={keywordValue}
+                  onChange={(e) => setKeywordValue(e.target.value)}
+                  className="border w-full p-2 outline-none"
+                  placeholder="Enter keywords..."
+                ></textarea>
+              </div>
+              
               <div className="mt-5">
                 <label className="font-bold">Post Description</label>
                 <br />
